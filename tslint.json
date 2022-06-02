@@ -1,0 +1,59 @@
+{
+	"regras" : {
+		"class-name" : true ,
+		"comment-format" : [ true ,  "check-space" ] ,
+		"indent" : [ true ,  "tabs" ] ,
+		"one-line" : [ true ,  "check-open-brace" ,  "check-whitespace" ] ,
+		"no-var-keyword" : true ,
+		"quotemark" : [ true ,  "single" ,  "avoid-escape" ] ,
+		"ponto e vírgula" : [ true ,  "nunca" ,  "ignore-bound-class-methods" ] ,
+		"typedef-whitespace" : [
+			true ,
+			{
+				"call-signature" : "nospace" ,
+				"index-signature" : "nospace" ,
+				"parâmetro" : "nospace" ,
+				"property-declaration" : "nospace" ,
+				"declaração-variável" : "nospace"
+			} ,
+			{
+				"assinatura de chamada" : "onespace" ,
+				"index-signature" : "onespace" ,
+				"parâmetro" : "onespace" ,
+				"property-declaration" : "onespace" ,
+				"declaração-variável" : "onespace"
+			}
+		] ,
+		"no-internal-module" : true ,
+		"no-trailing-whitespace" : true ,
+		"prefer-const" : true ,
+		"jsdoc-format" : true ,
+		"no-default-export" : true ,
+		"no-namespace" : false ,
+		"vírgula à direita" : false ,
+		"object-literal-sort-keys" : false ,
+		"no-empty" : false ,
+		"importações ordenadas" : false ,
+		"ordenação de membros" : false ,
+		"sem console" : false ,
+		"no-string-literal" : false ,
+		"max-classes-per-file" : false ,
+		"object-literal-key-quotes" : false ,
+		"variable-name" : false ,
+		"typedef" : [ true ,  "assinatura de chamada" ] ,
+		"espaço em branco" : [
+			true ,
+			"check-branch" ,
+			"check-decl" ,
+			"operador de verificação" ,
+			"módulo de verificação" ,
+			"separador de cheques" ,
+			"check-rest-spread" ,
+			"check-type" ,
+			"check-typecast" ,
+			"check-type-operator" ,
+			"check-preblock"
+		] ,
+		"interface-name" : [ true ,  "never-prefix" ]
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "name": "encurtador-de-url",
+  "version": "1.0.0",
+  "description": "um shortner URL for DIO project",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diego-de-Souza/Encurtador-de-URL.git"
+  },
+  "author": "Diego de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diego-de-Souza/Encurtador-de-URL/issues"
+  },
+  "homepage": "https://github.com/Diego-de-Souza/Encurtador-de-URL#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/shortid": "^0.0.29",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
+    "shortid": "^2.2.16"
+  }
+}
